@@ -1,0 +1,138 @@
+/* Styles.css */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color:  #5f5f5f;
+}
+h2 { 
+    font:bolder 25px Arial, Helvetica, sans-serif; 
+    color:#73b40e; 
+}
+p { 
+    font:normal 15px Arial, Helvetica, sans-serif;
+    line-height: 27px;
+}
+a { 
+    color:#73b40e; 
+    text-decoration:underline;
+}
+a.red { 
+    color:#db7835;
+}
+img:hover {
+    opacity: 0.8;
+}
+/* Header */
+.header {
+    background-color:#000000;
+}
+h1 { 
+    color:#ffffff; 
+    font:bold 50px  Arial, Helvetica, sans-serif;
+}
+h1 span { 
+    color:#db7835;
+}
+h1 small { 
+    font:18px Arial, Helvetica, sans-serif;
+}
+/* Nav Bar */
+.menu_nav ul {
+    list-style: none;
+}
+.menu_nav ul li a {
+    color: #fff;
+    background-color: rgb(59, 255, 105);
+    text-decoration: none;
+    border-radius: 6px;
+}
+.menu_nav ul li a:hover,.menu_nav ul li.active a {
+    background-color: #db7835;
+}
+/* MainBar Home */
+.article_vert {
+    text-align: left;
+}
+.article_vert img { 
+    object-fit: cover;
+    border: 2px rgb(155, 155, 155) solid;
+}
+.article_vert h2,p{
+    text-align: left;
+}
+/* Side Bar */
+ul.sb_menu, ul.ex_menu {
+    list-style: none;
+}
+ul.sb_menu li a, ul.ex_menu li a {
+    text-decoration: none;
+    color: #5f5f5f;
+}
+ul.sb_menu li a:hover, ul.ex_menu li a:hover {
+    font-weight: bolder;
+    color: #73b40e;
+}
+/* Form */
+label {
+    font-size: 15px;
+    font-weight: bolder;
+    color: #5f5f5f;
+}
+input.text {
+    border:1px solid #c0c0c0;
+}
+textarea { 
+    border:1px solid #c0c0c0;  
+}
+form button{
+    background: #dfdfdf;
+    border:none;
+    cursor: pointer;
+}
+form button:hover{
+    background:rgb(15, 139, 255);
+}
+/* footer 1*/
+.footer1 { 
+    background-color:#222922; 
+    color:#fff; 
+}
+.footer1 h2 { 
+    color:#fff; 
+}
+.footer_resize .gallery img {
+    border: 2px silver solid; 
+    object-fit: cover;
+}
+/* Footer 2 */
+.footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+}
+.footer-menu {
+    list-style: none; 
+}
+.footer-menu li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+.footer .footer-menu li.active a {
+    color: #ff6600; 
+    font-weight: bold;
+}
+.footer-menu li a:hover {
+    text-decoration: underline;
+    color: #73b40e;
+}
+.footer-line {
+    color: #fff;
+}
+.footer-line a {
+    color: #73b40e;
+    text-decoration: none;
+}
+.footer-line a:hover {
+    text-decoration: underline;
+}
